@@ -2,42 +2,47 @@
 <html>
 <head>
 	<title>Alixandrea Woodward</title>
+		<!-- Meta tags -->
+	<meta charset="UTF-8">
+  	<meta name="description" content="Web Development Portfolio">
+  	<meta name="keywords" content="HTML, CSS, JavaScript, portfolio">
+  	<meta name="author" content="Alixandrea Woodward">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Style sheet -->
 	<link rel="stylesheet" href="styles.css">
+		<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Raleway&display=swap" rel="stylesheet"> 
+		<!-- Javascript -->
+	<script src="javascript.js"></script> 
 </head>
 <body>
 	<header>
 	<label id="lblGreetings"></label>
 	</header>
-	<p>My name is Alixandrea Woodward and I'm a web developer.
-	</p>
+	<h1>
+		My name is Alixandrea Woodward and I'm a web developer.
+	</h1>
+	<h2>
+		I'm based out of Orlando, FL.
+	</h2>
+	<h3>
+		Thank you for visiting!
+	</h3>
 </body>
 <br>
+<hr>
 <br>
+	<!-- Nav bar -->
 <div>
-		 <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="about.html">About</a></li>
-</ul> </div>
+	<ul>
+  		<li><a href="index.html">Home</a></li>
+  		<li><a href="contact.html">Contact</a></li>
+  		<li><a href="about.html">About</a></li>
+	</ul> 
+</div>
 <br>
+	<!-- Photo credit -->
 <footer>
 	<span>Photo by <a href="https://unsplash.com/@amseaman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrew Seaman</a> on <a href="/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </footer>
 </html>
-<script>
-    var myDate = new Date();
-    var hrs = myDate.getHours();
-
-    var greet;
-
-    if (hrs < 12)
-        greet = 'Good Morning';
-    else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon';
-    else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening';
-
-    document.getElementById('lblGreetings').innerHTML =
-        '<b>' + greet + '</b> <br> and welcome to my portfolio!';
-</script>
