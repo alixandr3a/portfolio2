@@ -136,7 +136,6 @@ ol.spec, li.spec {
 	font-size: 15px;
 	padding: 10px;
     border-radius: 25px;
-    text-align: center;
-  	width: 75%;
+  	width: 25%;
   	background-color: #333;
 }
