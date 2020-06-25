@@ -1,3 +1,4 @@
+/* Background image */
 html { 
   	background: url(https://images.unsplash.com/photo-1514249738856-baeef48fa7d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80) no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -13,12 +14,27 @@ header, footer {
     text-align: center;
     width: 400px;
     display: block;
- 	margin-left: auto;
+	margin-left: auto;
   	margin-right: auto;
   	width: 25%;
 }
 
-p {
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 40px;
+	padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    width: 750px;
+    display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	background-color: #333;
+}
+
+p h2 {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 35px;
@@ -33,6 +49,38 @@ p {
   	background-color: #333;
 }
 
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    width: 750px;
+    display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	background-color: #333;
+}
+
+.contact {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 45px;
+	padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    width: 750px;
+    display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	background-color: #333;
+}
+
+/* List styles */
+
 ul {
   	list-style-type: none;
   	margin: 0;
@@ -43,7 +91,11 @@ ul {
 
 li {
   	float: left;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
+
+/* List link styles */
 
 li a {
   	display: block;
@@ -58,9 +110,6 @@ li a {
 li a:hover {
   	background-color: #111;
 }
-
-div {
-	}
 
 .center {
   	display: block;
