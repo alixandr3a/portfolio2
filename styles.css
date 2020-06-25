@@ -34,7 +34,7 @@ h1 {
   	background-color: #333;
 }
 
-p h2 {
+p, h2 {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 35px;
@@ -79,7 +79,7 @@ h3 {
   	background-color: #333;
 }
 
-/* List styles */
+/* Nav Bar styles */
 
 ul {
   	list-style-type: none;
@@ -94,8 +94,6 @@ li {
 	color: white;
 	font-family: 'Raleway', sans-serif;
 }
-
-/* List link styles */
 
 li a {
   	display: block;
@@ -132,15 +130,19 @@ hr {
   border-color: #8c8b8b; 
   border-width: 1px 0 0 0; 
   border-radius: 20px; 
-} 
+}
 
-hr:before { 
-  display: block; 
-  content: ""; 
-  height: 30px; 
-  margin-top: -31px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 0 0 1px 0; 
-  border-radius: 20px; 
+ol.spec, li.spec {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 35px;
+	padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    width: 750px;
+    display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+  	background-color: #333;
 }
