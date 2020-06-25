@@ -137,10 +137,6 @@ ol.spec, li.spec {
 	padding: 10px;
     border-radius: 25px;
     text-align: center;
-    width: 500px;
-    display: block;
- 	margin-left: auto;
-  	margin-right: auto;
   	width: 75%;
   	background-color: #333;
 }
