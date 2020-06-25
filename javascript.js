@@ -12,5 +12,5 @@
         greet = 'Good Evening';
 
     document.getElementById('lblGreetings').innerHTML =
-        '<b>' + greet + '</b> and welcome to my portfolio!';
+        '<b>' + greet + '</b> <br> and welcome to my portfolio!';
 </script>
