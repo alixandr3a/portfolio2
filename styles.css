@@ -130,7 +130,15 @@ hr {
     	border: 0;
 }
 
-ol.spec, li.spec {
+ol.spec {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 15px;
+}
+
+li.spec {
+	display: inline-block; 
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 15px;
