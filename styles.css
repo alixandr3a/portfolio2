@@ -81,7 +81,7 @@ h3 {
 
 /* Nav Bar styles */
 
-ul {
+div#nav ul {
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
@@ -89,13 +89,13 @@ ul {
   	background-color: #333;
 }
 
-li {
+div#nav li {
   	float: left;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 }
 
-li a {
+div#nav li a {
   	display: block;
   	color: white;
   	text-align: center;
@@ -105,7 +105,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+div#nav li a:hover {
   	background-color: #111;
 }
 
@@ -130,8 +130,9 @@ hr {
     	border: 0;
 }
 
-.spec {
+div#list {
 	text-align: center;
+  list-style-position: inside;
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 15px;
@@ -142,4 +143,9 @@ hr {
     	border-radius: 25px;
 	margin: auto;
   	width: 50%;
+}
+
+div#list li {
+  text-align: left;
+  margin-left: 45%;
 }
